@@ -1,0 +1,297 @@
+:root {
+    --main-color: #FEC260;
+    --bg-color: #F7ECDE;
+}
+
+body {
+    background-color: var(--bg-color);
+
+}
+
+h1 {
+    font-family: Pacifico, cursive;
+    position: relative;
+    z-index: 5;
+}
+
+h2 {
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1::after {
+    content: "";
+    background-color: var(--main-color);
+    width: 100%;
+    height: 35%;
+    position: absolute;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: all 1s;
+}
+
+h1:hover::after {
+    height: 100%;
+}
+
+.input-body {
+    /*     position: relative;
+ */
+    border-top: 2px dotted;
+    border-bottom: 2px dotted;
+}
+
+#submitBtn {
+    /*  --bs-btn-color: #fff; */
+    --bs-btn-bg: #d1512d;
+    --bs-btn-border-color: #d1512d;
+    /*   --bs-btn-hover-color: #fff; */
+    --bs-btn-hover-bg: #bb4120;
+    /*  --bs-btn-hover-border-color: #a03315; */
+}
+
+
+.submitBtn-click {
+
+    --bs-btn-color: #fff;
+    color: black;
+    outline-color: black;
+}
+
+/* .caption::after {
+    content: "-";
+    background-repeat: repeat-x;
+    background-color: aqua;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+}
+
+ */
+.h1-bg {
+    background-color: var(--main-color);
+
+}
+
+.btn-bg {
+    background-color: #D1512D;
+}
+
+.table-data {
+    font-family: "PT Sans Caption", sans-serif;
+    background-color: #F8F9FA;
+}
+
+.table-data thead th {
+    height: 40px;
+
+}
+
+.table-data tbody td {
+    padding-block: 20px;
+
+}
+
+.table-data tbody td .visit-btn {
+    background-color: #8A9E23;
+}
+
+.table-data tbody td .delete-btn {
+    background-color: #D30820;
+}
+
+#submitBtn:hover {
+    background-color: #BB4120;
+}
+
+#deleteBtn:hover {
+    background-color: #BB4120;
+}
+
+#closeBtn {
+    background-color: transparent;
+    border: none;
+}
+
+.visit-btn:hover {
+    background-color: #5e6d11 !important;
+}
+
+.bookmark {
+    position: relative;
+    height: 100%;
+
+}
+
+.overlay {
+    background-color: #847e7693;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+}
+
+.content-overlay {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    font-family: "PT Sans Caption", sans-serif;
+    text-align: left;
+    padding-inline: 30px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+
+
+}
+
+
+
+
+.content-overlay .header {
+    margin-block: 40px;
+
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.content-overlay .header a {
+    text-transform: none;
+    color: inherit;
+
+}
+
+.content-overlay p {
+    font-weight: 700;
+    font-size: 21px;
+}
+
+
+.content-overlay ul li {
+
+    margin-bottom: 5px;
+    display: flex;
+    /*    justify-content: center; */
+    align-items: center;
+
+
+}
+
+.content-overlay ul li i {
+
+    color: #D30820;
+    margin-right: 10px;
+
+
+}
+
+.content-overlay ul li p {
+
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 18px;
+
+
+}
+
+.content-overlay .round {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+
+}
+
+.content-overlay .rounded-b {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.open-overlay {
+    display: block;
+
+}
+
+/* 
+.modal-header {
+    margin-block: 40px;
+
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.modal-header a {
+    text-transform: none;
+    color: inherit;
+
+}
+
+.modal-body p {
+    font-weight: 700;
+    font-size: 21px;
+}
+
+
+.modal-body ul li {
+
+    margin-bottom: 5px;
+    display: flex;
+
+    align-items: center;
+
+
+}
+
+.modal-body ul li i {
+
+    color: #D30820;
+    margin-right: 10px;
+
+
+}
+
+.modal-body ul li p {
+
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 18px;
+
+
+}
+
+.modal-header .round {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+
+
+
+}
+
+.modal-header .rounded-b {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+} */
